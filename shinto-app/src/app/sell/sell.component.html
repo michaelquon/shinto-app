@@ -1,0 +1,13 @@
+<div id="title">
+    <h1><strong>{{title}}</strong></h1>
+  </div>
+  
+  <div id="sell-wrapper">
+  <h4>Current ShintoCoin Value:${{value}}.00</h4>
+  <h4>Number of ShintoCoins Owned:{{count}}</h4>
+  <form (submit)="onSubmit" action="">
+    <input class="form-control form-control-lg" type="text" name="sell" id="sell" placeholder="Number" #sell>
+    <button (click)="sellCoins(sell.value)" class="btn btn-primary btn-lg" type="button">Sell</button>
+    <h4>{{error}}</h4>
+  </form>
+  </div>

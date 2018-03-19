@@ -1,0 +1,13 @@
+<div id="title">
+    <h1><strong>{{title}}</strong></h1>
+  </div>
+  
+  <div id="mine-wrapper">
+  <p>Here you can min ShintoCoins by being the first to solve the algoritm:</p>
+  <h4>What is the 7th Fibonacci sequence number?</h4>
+  <form action="">
+    <input class="form-control form-control-lg" type="text" name="mineChoice" id="mine" placeholder="Number" #mine>
+    <button (click)="mineSubmit(mine.value)"class="btn btn-primary btn-lg" type="button">Mine</button>
+    <h5>{{results}}</h5>
+  </form>
+  </div>

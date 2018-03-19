@@ -1,0 +1,30 @@
+<div id="title">
+    <h1><strong>{{title}}</strong></h1>
+  </div>
+  
+  <div id="mine-wrapper">
+  <h4>Here you can browse all ShintoCoin transactions.</h4>
+  
+  <div id=table-div>
+  <h4 id="shinto-ledger">ShintoCoin Ledger</h4>
+  <table style="width: 400px;" class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Action</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Value</th>
+          <th scope="col">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let i of purchases'>
+          <!-- <th scope="row" ></th> -->
+          <td>{{i.action}}</td>
+          <td>{{i.totalCoins}}</td>
+          <td>{{i.value}}</td>
+          <td><button type="button">Details</button></td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+  </div>

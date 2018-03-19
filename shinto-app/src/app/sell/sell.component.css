@@ -1,0 +1,9 @@
+input{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+button{
+    display: inline-block;
+    vertical-align: top; 
+}

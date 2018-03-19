@@ -1,0 +1,12 @@
+<div id="title">
+    <h1><strong>{{title}}</strong></h1>
+  </div>
+  
+  <div id="mine-wrapper">
+  <h4>Current ShintoCoin Value:${{value}}.00</h4>
+  <h4>Number of ShintoCoins Owned:{{count}}</h4>
+  <form action="">
+    <input class="form-control form-control-lg" type="text" name="buy" id="buy" placeholder="Number" #buy>
+    <button (click)="buyCoins(buy.value)"class="btn btn-primary btn-lg" type="button">Buy</button>
+  </form>
+  </div>

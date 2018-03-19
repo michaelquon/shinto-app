@@ -1,0 +1,19 @@
+input{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+button{
+    display: inline-block;
+    vertical-align: top; 
+    border-radius: 5px;
+}
+#shinto-ledger{
+    text-align: center;
+    height: 40px;
+    background-color: rgb(235, 235, 235);
+    line-height: 1.5em;
+}
+#table-div{
+    width: 400px;
+}
